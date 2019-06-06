@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(#aa9b94, white);
+}
+
+#header span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#body {
+    flex: 5;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0 0;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+td.wall {
+    background-image: url("../images/wall.jpg");
+}
+
+td.f {
+    background-image: url("../images/sadje.png");
+}
+
+td.d {
+    background-image: url("../images/drobtinica.png");
+}
+
+td.player {
+    background-image: url("../images/pacman.png");
+}
+
+img.up {
+    transform: rotate(-90deg);
+}
+
+img.right {
+    transform: rotate(0);
+}
+
+img.bottom {
+    transform: rotate(90deg);
+}
+
+img.left {
+    transform: rotate(180deg);
+}

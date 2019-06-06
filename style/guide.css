@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    box-shadow: 10px 10px palevioletred;
+}
+
+thead {
+    color: white;
+    background: brown;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+}
+
+#container {
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
